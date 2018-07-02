@@ -1,0 +1,23 @@
+spring:
+  mail:
+    protocol: smtp
+    host: smtp.163.com
+    port: 25
+    username: 18215518314@163.com
+    password: qq84518936
+    smtpAuth: true
+    smtpStarttlsEnable: true
+    smtpSslTrust: smtp.163.com
+    default-encoding: UTF-8
+
+  freemarker:
+    charset: UTF-8
+    cache: false
+    content-type: text/html
+    template-loader-path: classpath:/templates/
+    suffix: .ftl
+
+web:
+  log:
+    enbale: true
+    print-header: Host
